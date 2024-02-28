@@ -1,0 +1,1 @@
+To develop Application for windows Azure / Amazon AWS using Windows Azure Platform Training Kit and Visual Studio.

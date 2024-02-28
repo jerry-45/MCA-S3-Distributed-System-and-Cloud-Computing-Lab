@@ -1,0 +1,5 @@
+Implement a Server to do the following
+1) Get two numbers from the client
+2) Server processing the summation of the above two numbers
+3) Server sends the processed data to the client and client checks whether the sum is greater than 100 or not
+4) Client displays appropriate message

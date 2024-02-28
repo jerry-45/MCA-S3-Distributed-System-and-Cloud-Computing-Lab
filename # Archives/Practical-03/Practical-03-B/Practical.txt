@@ -1,0 +1,4 @@
+Write a program to find the square of sum of two numbers using RMI.
+
+ActionListener class
+- actionPerformed()

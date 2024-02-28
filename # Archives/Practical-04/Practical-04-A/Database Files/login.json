@@ -1,0 +1,11 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"rmi"},
+{"type":"table","name":"login","database":"rmi","data":
+[
+{"username":"admin","password":"admin"},
+{"username":"parth","password":"parth"},
+{"username":"ash","password":"ash"}
+]
+}
+]

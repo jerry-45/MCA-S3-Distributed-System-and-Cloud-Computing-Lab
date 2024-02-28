@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Oct 26, 2023 at 06:50 AM
+- Server version: 10.4.21-MariaDB
+- PHP Version: 8.0.10
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="rmi" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="login">
+                CREATE TABLE `login` (
+                  `username` varchar(20) NOT NULL,
+                  `password` varchar(10) NOT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'rmi'
+    -->
+    <database name="rmi">
+        <!-- Table login -->
+        <table name="login">
+            <column name="username">admin</column>
+            <column name="password">admin</column>
+        </table>
+        <table name="login">
+            <column name="username">parth</column>
+            <column name="password">parth</column>
+        </table>
+        <table name="login">
+            <column name="username">ash</column>
+            <column name="password">ash</column>
+        </table>
+    </database>
+</pma_xml_export>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Oct 26, 2023 at 06:53 AM
+- Server version: 10.4.21-MariaDB
+- PHP Version: 8.0.10
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="rmi" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="library">
+                CREATE TABLE `library` (
+                  `BookName` varchar(30) NOT NULL,
+                  `AuthorName` varchar(30) NOT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'rmi'
+    -->
+    <database name="rmi">
+        <!-- Table library -->
+        <table name="library">
+            <column name="BookName">DSCC</column>
+            <column name="AuthorName">P.K. Sinha</column>
+        </table>
+        <table name="library">
+            <column name="BookName">Java</column>
+            <column name="AuthorName">Vikram Patalbansi</column>
+        </table>
+    </database>
+</pma_xml_export>

@@ -1,0 +1,1 @@
+Design a GUI to find greatest of two numbers implement using RMI

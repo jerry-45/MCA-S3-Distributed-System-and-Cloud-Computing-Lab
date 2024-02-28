@@ -1,0 +1,32 @@
+01-A | WAP to find IP address and host information.
+01-B | Write a Socket Program to connect Client and Server through TCP.
+01-C | Write a Socket Program to connect Client and Server through UDP.
+01-D | Develop a program for client server chat using java socket.
+01-E | Develop a program for client server GUI chat.
+01-F | Implement a server which calculates sum of two numbers using Java Socket.
+01-G | Implement a server to find whether an entered number is odd or even using Datagram Socket
+01-H | Implement a Program for multi-client chat server.
+
+02-A | To implement a Date Time Server using RPC concept. (Make use of datagram)
+02-B | Write a program to implement a Server calculator containing ADD( ) , MUL( ) , SUB( ) , DIV( ). Implement using RPC.
+02-c | Implement a Server to do the following: (Use RPC) i) Get two numbers from the client. ii) Server processing the summation of the above two numbers iii) Server sends the processed data to the client and client checks whether the sum is greater than 100 or not iv) Client displays appropriate message
+
+03-A | Retrieve time and date function from server to client. This program should display server date and time by implementing RMI.
+03-B | The client should provide the values of a, b. The server will solve the equation c = (a+b)2 &amp; c= (a+b)3 and will give back the value of c. Implement using RMI.
+03-C | The client should provide the values of a, b &amp; c. The server will solve the equation (ax2 + bx + c = 0) and will give back the value of x. If a = 1, b = 5 and c = 6 then return value will be x = -2 or x = -3.
+03-D | Design a Graphical User Interface to find Student’s score. Implement using RMI.
+03-E | Design a Graphical User Interface to find greatest of two numbers. Implement using RMI.
+03-F | Design a Graphical User Interface (GUI) based Basic calculator by implementing RMI.
+
+04-A | Retrieve the Student Score from the database. (Use Concept of JDBC and RMI)
+04-B | Using MySQL create Library database. Create table Book (Book_id, Book_name, Book_author) and retrieve the Book information from Library database using Remote Object Communication concept.
+04-C | Using MySQL create Elecrtic_Bill database. Create table Bill (consumer_name, bill_due_date, bill_amount) and retrieve the Bill information from the Elecrtic_Bill database using Remote Object Communication concept.
+
+05 | Implementation of Mutual Exclusion using Token Ring technique.
+
+06 | Implementation of Storage as a Service using Google Docs.
+
+07 | Implementation of Identity Management.
+
+08-A | To develop Application for windows Azure / Amazon AWS using Windows Azure Platform Training Kit and Visual Studio.
+08-B | To develop applications using Google App Engine by using Eclipse IDE

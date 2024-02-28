@@ -1,0 +1,26 @@
+RMI --> Remote Method Invocation
+
+**How to develop RMI Application**
+
+Step 1: Develop Server Object Interface
+Step 2: Define Server Implementation Class
+Step 3: Create and Register Server Object
+Step 4: Develop Client Program
+
+**How to run RMI Application**
+Step 01: Compile all the files
+Step 02: rmic HelloRmiImpl
+Step 03: start rmiregistry
+Step 04: java HelloRmiServer
+Step 05: java HelloRmiClient
+
+
+Naming class
+- bind()
+- rebind()
+- lookup()
+
+LocateRegistry class
+- 
+
+UnicastRemoteObject provides uniqueness to remote object

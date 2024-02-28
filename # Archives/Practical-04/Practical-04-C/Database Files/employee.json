@@ -1,0 +1,11 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"rmi"},
+{"type":"table","name":"employee","database":"rmi","data":
+[
+{"emp_id":"1001","emp_name":"Atharva Parab","emp_gender":"Male","emp_contact":"1234567890","emp_salary":"0"},
+{"emp_id":"1002","emp_name":"Atul Vishwakarma","emp_gender":"Male","emp_contact":"1894561230","emp_salary":"0"},
+{"emp_id":"1003","emp_name":"Parth Dalvi","emp_gender":"Male","emp_contact":"1237896542","emp_salary":"0"}
+]
+}
+]

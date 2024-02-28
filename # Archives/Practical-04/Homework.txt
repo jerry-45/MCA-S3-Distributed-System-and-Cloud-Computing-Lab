@@ -1,0 +1,121 @@
+1	Select the custom role and add Sub1 and Sub2 to the assignable scopes. Remove RG1 from the assignable scopes.
+
+2	
+
+3	Yes
+
+4	
+
+5	a service tag
+
+6	Assign User1 the Network Contributor role for VNet1.
+
+7	
+
+8	JobTitle A & UsageLocation A
+
+9	
+
+10	
+
+11	Group1 and Group3 only
+
+12	A B C
+
+13
+	
+14	
+
+15
+	
+16	
+
+17
+	
+18	From the Networking blade of account1, select Selected networks & From the Networking blade of account1, add VNet1.
+
+19	
+
+20	
+
+21	an XML manifest file & a dataset CSV file
+
+22	From the Recovery Service vault, delete the backup data.
+
+23	
+
+24	
+
+25	blob and file only
+
+26	Blob storage:C & File Storage: A
+
+27	two fault domains & two update domains
+
+28	Azure Blob storage
+
+29	Create a new custom role for Sub1 and add Sub2 to the assignable scopes. Remove the role from RG1.
+
+30	Assign roles to User2 for storageacct1234. & View file shares in storageacct1234.
+
+31	Event | where EventType is "error"
+
+32	Configure user-level credentials for FTPS
+
+33	YES
+
+34	
+
+35	storage4
+
+36	From the Networking blade of account1, select Allow trusted Microsoft services to access this storage account. OR From the Networking blade of account1, add VNet1.
+
+37	From the Recovery Service vault, delete the backup data.
+
+38	From the VM2 blade, click Disaster recovery, click Replication settings, and then select RSV2 as the Recovery Services vault
+
+39	Upgrade the account to general-purpose v2.
+
+40	445
+
+41	azcopy copy D:\folder1 https://contosodata.blob.core.windows.net/public --recursive
+
+42	Replication
+
+43	Create an encryption scope.
+
+44	Premium performance with locally-redundant storage (LRS)
+
+45	
+
+46	a shared access signature (SAS)
+
+47	Create a new key. & Configure a key rotation policy.
+
+48	Azure Disk Encryption
+
+49	a shared access signature (SAS)
+
+50	NO
+
+51	an Azure Key Vault and an access policy
+
+52	Upload a configuration script OR Modify the extensionProfile section of the Azure Resource Manager template
+
+53	
+
+54	one App Service plan
+
+55	Storage Blob Data Contributor & Reader
+
+56	
+
+57	
+
+58	
+
+59	
+
+60
+	
+

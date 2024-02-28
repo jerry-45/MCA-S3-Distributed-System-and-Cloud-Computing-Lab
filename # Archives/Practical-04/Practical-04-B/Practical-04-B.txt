@@ -1,0 +1,3 @@
+**Netbeans**
+
+Retrieve the books name & author name from the Library Database. Use Remote Object Communication.

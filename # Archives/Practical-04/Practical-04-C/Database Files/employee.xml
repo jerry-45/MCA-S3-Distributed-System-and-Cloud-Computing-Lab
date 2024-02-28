@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Nov 02, 2023 at 06:33 AM
+- Server version: 10.4.21-MariaDB
+- PHP Version: 8.0.10
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="rmi" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="employee">
+                CREATE TABLE `employee` (
+                  `emp_id` int(5) NOT NULL,
+                  `emp_name` varchar(50) NOT NULL,
+                  `emp_gender` enum('Male','Female','Other') NOT NULL,
+                  `emp_contact` int(10) NOT NULL,
+                  `emp_salary` int(10) NOT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'rmi'
+    -->
+    <database name="rmi">
+        <!-- Table employee -->
+        <table name="employee">
+            <column name="emp_id">1001</column>
+            <column name="emp_name">Atharva Parab</column>
+            <column name="emp_gender">Male</column>
+            <column name="emp_contact">1234567890</column>
+            <column name="emp_salary">0</column>
+        </table>
+        <table name="employee">
+            <column name="emp_id">1002</column>
+            <column name="emp_name">Atul Vishwakarma</column>
+            <column name="emp_gender">Male</column>
+            <column name="emp_contact">1894561230</column>
+            <column name="emp_salary">0</column>
+        </table>
+        <table name="employee">
+            <column name="emp_id">1003</column>
+            <column name="emp_name">Parth Dalvi</column>
+            <column name="emp_gender">Male</column>
+            <column name="emp_contact">1237896542</column>
+            <column name="emp_salary">0</column>
+        </table>
+    </database>
+</pma_xml_export>
